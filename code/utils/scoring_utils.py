@@ -94,3 +94,7 @@ def score_run(gt_dir, pred_dir):
     print('average intersection over union for hero is {}'.format(hero))
 
     print('global average intersection over union is {}'.format(average))
+    
+    print('{}\t{}\t{}'.format(background,people,hero))
+    
+    
